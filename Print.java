@@ -8,7 +8,7 @@ public class Print {
         shapes[4] = new Triangle("Triangle", 2, 11);
 
         for (Shape shape : shapes) {
-            System.out.println("Name is " +shape.getName() + ", area = " + shape.getArea());
+            System.out.println("Name is " + shape.getName() + ", area = " + shape.getArea());
         }
     }
 }
