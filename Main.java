@@ -6,6 +6,7 @@ public class Main {
         shapes[2] = new Quad("Quad", 11);
         shapes[3] = new Trapezium("Trapezium", 2, 11, 20);
         shapes[4] = new Triangle("Triangle", 2, 11);
+        
         Print.print(shapes);
     }
 }
